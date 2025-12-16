@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build Output
+dist/
+build/
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+.nyc_output
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS Files
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
+
+# Production
+*.tsbuildinfo
+
+# Debug
+debug.log
