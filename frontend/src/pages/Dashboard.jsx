@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../context/authContext';
+import { useAuth } from '../context/AuthContext';
 import Navbar from '../components/Navbar';
 import { getQuestions } from '../services/questions';
 import { getAnalyticsSummary } from '../services/analytics';
