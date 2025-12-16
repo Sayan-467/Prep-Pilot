@@ -1,7 +1,10 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api"
+  baseURL: "https://prep-pilot-h3m8.onrender.com/api",
+  headers: {
+    "Content-Type": "application/json",
+  },
 });
 
 // attach token automatically
