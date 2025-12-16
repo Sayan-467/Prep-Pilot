@@ -19,8 +19,8 @@ const PORT = process.env.PORT || 5000;
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://prep-pilot-woad.vercel.app/', // Your Vercel URL
-    'https://*.vercel.app' // Allow all Vercel preview deployments
+    'https://prep-pilot-woad.vercel.app',
+    'https://prep-pilot-h3m8.onrender.com'
   ],
   credentials: true
 }));
